@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\User\Desktop\MS\Sem 2\Mobile Apps\HW\Project-2\musicApp (1)\musicApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_3e801f2c585276f3f273a9825aabeda71442f872.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\MS\Sem 2\Mobile Apps\HW\Project-2\musicApp (1)\musicApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\User\Desktop\MS\Sem 2\Mobile Apps\HW\Project-2\musicApp (1)\musicApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_158908eed14e03e325c94f95985d0ee11185505c.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\MS\Sem 2\Mobile Apps\HW\Project-2\musicApp (1)\musicApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\User\Desktop\MS\Sem 2\Mobile Apps\HW\Project-2\musicApp (1)\musicApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_c5d4f5fb8d0be605a13a60700f6b9448ad8dc54e.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\MS\Sem 2\Mobile Apps\HW\Project-2\musicApp (1)\musicApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\User\Desktop\MS\Sem 2\Mobile Apps\HW\Project-2\musicApp (1)\musicApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_6aa8972652ea3ee5c32b013cf6df178958af2271.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\musicApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\musicApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\MS\\Sem 2\\Mobile Apps\\HW\\Project-2\\musicApp (1)\\musicApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\User\\Desktop\\MS\\Sem 2\\Mobile Apps\\HW\\Project-2\\musicApp (1)\\musicApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Sem2\\Mobile Apps\\HW\\Project-2\\musicApp (1)\\musicApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\User\\Desktop\\Sem2\\Mobile Apps\\HW\\Project-2\\musicApp (1)\\musicApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]
