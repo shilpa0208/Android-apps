@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26205961CD3062700F8B3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26205951CD3062700F8B3D3 /* AppDelegate.swift */; };
+		D26205981CD3062700F8B3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26205971CD3062700F8B3D3 /* ViewController.swift */; };
+		D262059B1CD3062700F8B3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26205991CD3062700F8B3D3 /* Main.storyboard */; };
+		D262059D1CD3062700F8B3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D262059C1CD3062700F8B3D3 /* Assets.xcassets */; };
+		D26205A01CD3062700F8B3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D262059E1CD3062700F8B3D3 /* LaunchScreen.storyboard */; };
+		D26205AB1CD3062700F8B3D3 /* DayCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26205AA1CD3062700F8B3D3 /* DayCalcTests.swift */; };
+		D26205B61CD3062700F8B3D3 /* DayCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26205B51CD3062700F8B3D3 /* DayCalcUITests.swift */; };
+		D26205C41CD3101100F8B3D3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26205C31CD3101100F8B3D3 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D26205A71CD3062700F8B3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D262058A1CD3062700F8B3D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26205911CD3062700F8B3D3;
+			remoteInfo = DayCalc;
+		};
+		D26205B21CD3062700F8B3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D262058A1CD3062700F8B3D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26205911CD3062700F8B3D3;
+			remoteInfo = DayCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D26205921CD3062700F8B3D3 /* DayCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26205951CD3062700F8B3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D26205971CD3062700F8B3D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D262059A1CD3062700F8B3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D262059C1CD3062700F8B3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D262059F1CD3062700F8B3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D26205A11CD3062700F8B3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26205A61CD3062700F8B3D3 /* DayCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26205AA1CD3062700F8B3D3 /* DayCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCalcTests.swift; sourceTree = "<group>"; };
+		D26205AC1CD3062700F8B3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26205B11CD3062700F8B3D3 /* DayCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26205B51CD3062700F8B3D3 /* DayCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCalcUITests.swift; sourceTree = "<group>"; };
+		D26205B71CD3062700F8B3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26205C31CD3101100F8B3D3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D262058F1CD3062700F8B3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26205A31CD3062700F8B3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26205AE1CD3062700F8B3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26205891CD3062700F8B3D3 = {
+			isa = PBXGroup;
+			children = (
+				D26205941CD3062700F8B3D3 /* DayCalc */,
+				D26205A91CD3062700F8B3D3 /* DayCalcTests */,
+				D26205B41CD3062700F8B3D3 /* DayCalcUITests */,
+				D26205931CD3062700F8B3D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26205931CD3062700F8B3D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26205921CD3062700F8B3D3 /* DayCalc.app */,
+				D26205A61CD3062700F8B3D3 /* DayCalcTests.xctest */,
+				D26205B11CD3062700F8B3D3 /* DayCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26205941CD3062700F8B3D3 /* DayCalc */ = {
+			isa = PBXGroup;
+			children = (
+				D26205C31CD3101100F8B3D3 /* File.swift */,
+				D26205951CD3062700F8B3D3 /* AppDelegate.swift */,
+				D26205971CD3062700F8B3D3 /* ViewController.swift */,
+				D26205991CD3062700F8B3D3 /* Main.storyboard */,
+				D262059C1CD3062700F8B3D3 /* Assets.xcassets */,
+				D262059E1CD3062700F8B3D3 /* LaunchScreen.storyboard */,
+				D26205A11CD3062700F8B3D3 /* Info.plist */,
+			);
+			path = DayCalc;
+			sourceTree = "<group>";
+		};
+		D26205A91CD3062700F8B3D3 /* DayCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				D26205AA1CD3062700F8B3D3 /* DayCalcTests.swift */,
+				D26205AC1CD3062700F8B3D3 /* Info.plist */,
+			);
+			path = DayCalcTests;
+			sourceTree = "<group>";
+		};
+		D26205B41CD3062700F8B3D3 /* DayCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D26205B51CD3062700F8B3D3 /* DayCalcUITests.swift */,
+				D26205B71CD3062700F8B3D3 /* Info.plist */,
+			);
+			path = DayCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26205911CD3062700F8B3D3 /* DayCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26205BA1CD3062700F8B3D3 /* Build configuration list for PBXNativeTarget "DayCalc" */;
+			buildPhases = (
+				D262058E1CD3062700F8B3D3 /* Sources */,
+				D262058F1CD3062700F8B3D3 /* Frameworks */,
+				D26205901CD3062700F8B3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayCalc;
+			productName = DayCalc;
+			productReference = D26205921CD3062700F8B3D3 /* DayCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D26205A51CD3062700F8B3D3 /* DayCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26205BD1CD3062700F8B3D3 /* Build configuration list for PBXNativeTarget "DayCalcTests" */;
+			buildPhases = (
+				D26205A21CD3062700F8B3D3 /* Sources */,
+				D26205A31CD3062700F8B3D3 /* Frameworks */,
+				D26205A41CD3062700F8B3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26205A81CD3062700F8B3D3 /* PBXTargetDependency */,
+			);
+			name = DayCalcTests;
+			productName = DayCalcTests;
+			productReference = D26205A61CD3062700F8B3D3 /* DayCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D26205B01CD3062700F8B3D3 /* DayCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26205C01CD3062700F8B3D3 /* Build configuration list for PBXNativeTarget "DayCalcUITests" */;
+			buildPhases = (
+				D26205AD1CD3062700F8B3D3 /* Sources */,
+				D26205AE1CD3062700F8B3D3 /* Frameworks */,
+				D26205AF1CD3062700F8B3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26205B31CD3062700F8B3D3 /* PBXTargetDependency */,
+			);
+			name = DayCalcUITests;
+			productName = DayCalcUITests;
+			productReference = D26205B11CD3062700F8B3D3 /* DayCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D262058A1CD3062700F8B3D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Shilpa;
+				TargetAttributes = {
+					D26205911CD3062700F8B3D3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D26205A51CD3062700F8B3D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D26205911CD3062700F8B3D3;
+					};
+					D26205B01CD3062700F8B3D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D26205911CD3062700F8B3D3;
+					};
+				};
+			};
+			buildConfigurationList = D262058D1CD3062700F8B3D3 /* Build configuration list for PBXProject "DayCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26205891CD3062700F8B3D3;
+			productRefGroup = D26205931CD3062700F8B3D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26205911CD3062700F8B3D3 /* DayCalc */,
+				D26205A51CD3062700F8B3D3 /* DayCalcTests */,
+				D26205B01CD3062700F8B3D3 /* DayCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26205901CD3062700F8B3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26205A01CD3062700F8B3D3 /* LaunchScreen.storyboard in Resources */,
+				D262059D1CD3062700F8B3D3 /* Assets.xcassets in Resources */,
+				D262059B1CD3062700F8B3D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26205A41CD3062700F8B3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26205AF1CD3062700F8B3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D262058E1CD3062700F8B3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26205981CD3062700F8B3D3 /* ViewController.swift in Sources */,
+				D26205C41CD3101100F8B3D3 /* File.swift in Sources */,
+				D26205961CD3062700F8B3D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26205A21CD3062700F8B3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26205AB1CD3062700F8B3D3 /* DayCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26205AD1CD3062700F8B3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26205B61CD3062700F8B3D3 /* DayCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D26205A81CD3062700F8B3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26205911CD3062700F8B3D3 /* DayCalc */;
+			targetProxy = D26205A71CD3062700F8B3D3 /* PBXContainerItemProxy */;
+		};
+		D26205B31CD3062700F8B3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26205911CD3062700F8B3D3 /* DayCalc */;
+			targetProxy = D26205B21CD3062700F8B3D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D26205991CD3062700F8B3D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D262059A1CD3062700F8B3D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D262059E1CD3062700F8B3D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D262059F1CD3062700F8B3D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D26205B81CD3062700F8B3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D26205B91CD3062700F8B3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26205BB1CD3062700F8B3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DayCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DayCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D26205BC1CD3062700F8B3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DayCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DayCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D26205BE1CD3062700F8B3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DayCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DayCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayCalc.app/DayCalc";
+			};
+			name = Debug;
+		};
+		D26205BF1CD3062700F8B3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DayCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DayCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayCalc.app/DayCalc";
+			};
+			name = Release;
+		};
+		D26205C11CD3062700F8B3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DayCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DayCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DayCalc;
+			};
+			name = Debug;
+		};
+		D26205C21CD3062700F8B3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DayCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DayCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DayCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D262058D1CD3062700F8B3D3 /* Build configuration list for PBXProject "DayCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26205B81CD3062700F8B3D3 /* Debug */,
+				D26205B91CD3062700F8B3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26205BA1CD3062700F8B3D3 /* Build configuration list for PBXNativeTarget "DayCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26205BB1CD3062700F8B3D3 /* Debug */,
+				D26205BC1CD3062700F8B3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D26205BD1CD3062700F8B3D3 /* Build configuration list for PBXNativeTarget "DayCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26205BE1CD3062700F8B3D3 /* Debug */,
+				D26205BF1CD3062700F8B3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D26205C01CD3062700F8B3D3 /* Build configuration list for PBXNativeTarget "DayCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26205C11CD3062700F8B3D3 /* Debug */,
+				D26205C21CD3062700F8B3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D262058A1CD3062700F8B3D3 /* Project object */;
+}
